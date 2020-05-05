@@ -1,0 +1,82 @@
+
+    body {
+        background: linear-gradient(rgba(255, 255, 255, 0.103) ,rgba(255, 255, 255, 0.075)) ,url(img2.jpg);
+        font-family: 'Hind Guntur', sans-serif;
+      
+    }
+    #head{
+        text-align:center;
+        background-color:rgba(0, 7, 10, 0.774);
+        color:white;
+        display:flex;
+        padding:10px;
+    }
+    h1{
+      text-align:center;
+      margin-left:570px;
+    }
+    .logout{
+        margin-left:30%;
+        margin-top:20px;
+        font-size:20px;
+    }
+    a:first-child{
+      color:white;
+      text-decoration: none;
+      font-size:20px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top:30px;
+    }
+    a:first-child:hover
+    {
+      color:rgb(255, 0, 0);
+    }
+    a:last-child{
+        color:white;
+        text-decoration: none;
+      }
+    a:last-child:hover
+      {
+        color:rgb(236, 42, 28);
+      }
+
+     #trips{
+         background-color: rgba(117, 116, 116, 0.699);
+         color:white;
+         width:30%;
+         float:left;
+         margin:20px;
+         padding:20px;
+         border: 3px solid rgba(255, 255, 255, 0.61);
+         
+     }
+     h1,h3{
+         text-align: center;
+     }
+     #wishlist{
+         float:left;
+         color:white;
+         background-color: rgba(25, 86, 104, 0.699);
+         border: 3px solid rgba(255, 255, 255, 0.61);
+         padding:20px;  
+         margin:20px;
+         width:30%;
+     }
+     #profile{
+         background-color:rgba(0, 7, 10, 0.774);
+         color: rgba(255, 255, 255, 0.61);
+         position:fixed;
+         right:8;
+         width: 24%;
+         text-align: center;
+     }
+     
+     #profile_picture{
+         border-radius: 20%; 
+         border: 3px solid rgb(0, 0, 3);
+         margin-top:40px;
+     }
+     .disp_name.h2{
+        color:rgb(255, 255, 255);
+        bottom:0;
+     }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Sample Preset Itinerary</title>
+    <link href="preset.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  <body>
+    <div id="floating-panel">
+      <strong>Start:</strong>
+      <select id="start">
+        <option value="cubbon park, bangalore">Cubbon Park</option>
+        <option value="lalbagh, Bangalore">Lal Bagh</option>
+	<option value="Bangalore High Court, Bangalore">Bangalore High Court</option>
+	<option value="Tipu Sultan's Palace, Bangalore">Tipu Sultan's Palace</option>
+
+      </select>
+      <br>
+      <strong>End:</strong>
+      <select id="end">
+        <option value="cubbon park, bangalore">Cubbon Park</option>
+        <option value="lalbagh, Bangalore">Lal Bagh</option>
+	<option value="Bangalore High Court, Bangalore">Bangalore High Court</option>
+	
+      </select>
+    </div>
+
+    <div id="mode-panel">
+    <b>Mode of Travel: </b>
+    <select id="mode">
+      <option value='DRIVING'>Driving</option>
+      <option value="WALKING">Walking</option>
+
+      <option value="TRANSIT">Transit</option>
+    </select>
+    </div>
+
+    <div id="right-panel"></div>
+    <div id="map"></div>
+    <script src="preset.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=xxxxx&callback=initMap">
+    </script>
+  </body>
+</html>
+

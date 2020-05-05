@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="register.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+            <div class="top">
+                    <h3>
+                        PLAN BOOK
+                    </h3>
+            </div>
+
+        <div class="login">
+                <ul class="backgroundslider">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <!-- <li></li> -->
+                    </ul>
+        <form method="POST" action ="register.php" >
+            <div class="row">
+                   
+                        <h1>SIGN UP</h1>
+                        <label for="firstname"><b>&nbsp;First Name</b></label>
+                        <input type="text" name="firstname" id="fn" required><br><br>
+            
+                        <label for="lastname"><b>&nbsp;Last Name</b></label>
+                        <input type="text" name="lastname" id="ln" required><br><br>
+            
+                        <label for="username"><b>&nbsp;&nbsp;Username</b></label>
+                        <input type="text" name="username" maxlength="8" id="un" required><br><br>
+            
+                        <label for="password"><b>&nbsp;&nbsp;&nbsp;Password</b></label>
+                        <input type="password" name="password" id="ps" minlength="6" maxlength="12" required><br><br><br>
+            
+                        <button name="create" value="Sign Up" id="btn" onclick=required()>Sign Up</button>
+
+                        <br>
+                        <br>
+                        <button name="back" value="back" id="btn" onclick="window.location.href='login.html'">Login</button>
+            </div>
+                    
+        </form>
+                <script>
+                    btn.addEventListener('click',required,true); 
+                        function required(e)
+                        {   var valid= this.form.checkValidity();
+                            if(valid){
+                                
+                            }
+                            else{
+                                alert("Fill up all the details properly.");
+                            }
+                        }
+
+                </script>
+    </div>
+    </body>
+</html>
